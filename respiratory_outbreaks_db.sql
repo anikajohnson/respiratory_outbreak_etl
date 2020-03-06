@@ -14,7 +14,6 @@ CREATE DATABASE respiratory_outbreak_db
 CREATE TABLE sars (
 id INT PRIMARY KEY,
 date TEXT,
-province_state TEXT,
 country TEXT,
 confirmed INT,
 deaths INT,
@@ -24,7 +23,6 @@ recovered INT
 CREATE TABLE corona (
 id INT PRIMARY KEY,
 date TEXT,
-province_state TEXT,
 country TEXT,
 confirmed INT,
 deaths INT,
